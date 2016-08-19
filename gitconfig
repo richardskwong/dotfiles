@@ -1,0 +1,12 @@
+[user]
+  name = Richard Wong
+  email = richard.skwong@gmail.com
+[alias]
+  s = status -s
+  st = status
+  dc = diff --cached
+  pom = push origin master
+  ci = commit
+  amend = commit --amend --no-edit
+[http]
+[https]

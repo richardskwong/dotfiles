@@ -1,0 +1,31 @@
+" Basics
+  syntax on
+  set number
+  set laststatus=2
+  set ruler
+  set showmode
+  set nowrap
+
+" Colors
+  hi LineNr ctermfg=DarkGrey
+
+" All the backspaces!
+  set backspace=indent,eol,start
+
+" Tabs and whitespace
+  set expandtab
+  set tabstop=2
+  set shiftwidth=2
+  set smartindent
+
+" Searching
+  set hlsearch
+  set incsearch
+  set ignorecase
+
+" Filetypes
+  au BufNewFile,BufRead Vagrantfile set filetype=ruby
+  au BufNewFile,BufRead Gemfile set filetype=ruby
+
+" Paste
+  set clipboard=unnamed
