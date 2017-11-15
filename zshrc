@@ -36,13 +36,6 @@ if [ -f ~/bin/proxies ]; then
   source ~/bin/proxies
 fi
 
-# secrets
-#source ~/.secrets
-
-# ruby
-#source /usr/local/opt/chruby/share/chruby/chruby.sh
-#chruby ruby
-
 # go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin

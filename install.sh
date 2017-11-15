@@ -7,8 +7,12 @@ brew install git
 brew install zsh
 brew install wget
 
+brew install nvm
+. $(brew --prefix nvm)/nvm.sh
+
 nvm install node
 nvm install 4
+nvm install 6
 nvm use 6
 
 # Atom

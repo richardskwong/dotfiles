@@ -10,7 +10,6 @@ open https://www.docker.com/
 # Applications
 open https://www.google.com/chrome/
 open https://evernote.com/download/
-open https://www.box.com/resources/downloads
 open https://www.google.co.uk/drive/download/
 open https://www.dropbox.com/en_GB/downloading
 open https://slack.com/downloads
